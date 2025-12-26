@@ -22,6 +22,14 @@
 		"plugin:prettier/recommended"
 	],
 	"rules": {
-		"prettier/prettier": "warn"
+		"prettier/prettier": [
+			"warn", {
+				"printWidth": 120,
+				"useTabs": true,
+				"tabWidth": 4,
+				"trailingComma": "all",
+				"endOfLine": "CRLF"
+			}
+		]
 	}
 }
